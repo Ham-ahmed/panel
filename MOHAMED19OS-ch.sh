@@ -2,13 +2,13 @@
 #
 cd /tmp
 set -e 
- wget "https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/channels_backup_user_2024_01_02.tar.gz"
+ wget "https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/Channel/channels_backup_user_2024_01_10.tar.gz"
 wait
-tar -xzf channels_backup_user_2024_01_02.tar.gz  -C /
+tar -xzf channels_backup_user_2024_01_10.tar.gz  -C /
 wait
 cd ..
 set +e
-rm -f /tmp/channels_backup_user_2024_01_02.tar.gz
+rm -f /tmp/channels_backup_user_2024_01_10.tar.gz
 sleep 2;
 echo "" 
 echo "" 
